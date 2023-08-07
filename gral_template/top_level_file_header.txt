@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+--                                 CNEA - CAE - IYC
+--------------------------------------------------------------------------------
+--
+-- Proyecto:    Comparador SPR del RA-10.
+-- Autor:       Juan Alarcón (alarcon@cae.cnea.gov.ar).
+-- Código:      Vxxx-A0
+-- Descripción: La descripción detallada se encuentra en ET-06Y-142
+--                  
+--
+--------------------------------------------------------------------------------
+-- Evolución   Fecha        Revisor    Comentarios
+-- 0           12/09/2017   JEA        Original. Se ajusta a la ET-06Y-142 Rev.1
+-- 1           xx/xx/xxxx   JEA        Según Cambio de diseño CD-xxx.
+--------------------------------------------------------------------------------

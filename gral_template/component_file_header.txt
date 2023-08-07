@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------
+--                                 CNEA - CAE - IYC
+--------------------------------------------------------------------------------
+--
+-- Componente:  Contador Ascendente.
+-- Autor:       Juan Alarcón (alarcon@cae.cnea.gov.ar).
+-- Archivo:     contador_up.vhd
+-- Descripción: Contador ascendente de G_NBITS con entrada de habilitación
+--                  
+--
+--------------------------------------------------------------------------------
+-- Revisión    Fecha        Revisor    Comentarios
+-- 0           12/09/2017   JEA        Original
+--------------------------------------------------------------------------------
