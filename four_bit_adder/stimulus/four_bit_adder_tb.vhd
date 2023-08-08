@@ -47,7 +47,7 @@ architecture behavioral of four_bit_adder_tb is
             pi_b : in std_logic_vector(3 downto 0);
 
             -- Outputs
-            po_sum : out std_logic_vector(3 downto 0)
+            po_sum : out std_logic_vector(4 downto 0)
 
             -- Inouts
 

@@ -1,0 +1,16 @@
+Project Name: four_bit_adder
+Location: C:\MarianoF\vhdl_projects\four_bit_adder
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P1000-PQ208I
+Family         : ProASIC3
+Die            : A3P1000
+Package        : 208 PQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : IND

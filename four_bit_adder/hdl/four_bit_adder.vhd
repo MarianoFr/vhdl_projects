@@ -16,13 +16,17 @@
 library ieee;
 
 use ieee.std_logic_1164.all;
-use ieee.std_logic_arith.all;
+-- use ieee.std_logic_arith.all;
+use ieee.numeric_bit.aLL;
 
 entity four_bit_adder is
+   generic (
+      G_N : natural range 1 to natural'HIGH := 1 
+   );
 port (
    --<port_name> : <direction> <type>;
-	pi_a, pi_b : IN  signed (3 downto 0);
-   po_sum : OUT signed (3 downto 0)
+	pi_a, pi_b : IN  signed (G_N-1 downto 0);
+   po_sum : OUT signed (G_N downto 0)
 );
 end four_bit_adder;
 architecture behavioral of four_bit_adder is
@@ -30,5 +34,5 @@ architecture behavioral of four_bit_adder is
 
 begin
    -- architecture body
-   po_sum <= pi_a + pi_b;
+   po_sum <= resize(pi_a, G_N) + resize(pi_b, G_N);
 end behavioral;

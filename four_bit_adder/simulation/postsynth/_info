@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/MarianoF/vhdl_projects/four_bit_adder/simulation
+Efour_bit_adder
+Z1 w1691517452
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/MarianoF/vhdl_projects/four_bit_adder/synthesis/four_bit_adder.vhd
+Z5 FC:/MarianoF/vhdl_projects/four_bit_adder/synthesis/four_bit_adder.vhd
+l0
+L8
+VbaB3A3fNDg3Udg13YV_YC3
+!s100 7@2i655aQlFQWH<LTnFD[2
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1691517460
+!i10b 1
+Z8 !s108 1691517459.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/MarianoF/vhdl_projects/four_bit_adder/synthesis/four_bit_adder.vhd|
+Z10 !s107 C:/MarianoF/vhdl_projects/four_bit_adder/synthesis/four_bit_adder.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+Z13 DEx4 work 14 four_bit_adder 0 22 baB3A3fNDg3Udg13YV_YC3
+l77
+L17
+Vz@kEz5=5hTPfNC=FgT8nS0
+!s100 j<JUI_7E:60n5DbZPh15B2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efour_bit_adder_tb
+Z14 w1691517441
+R2
+R3
+R0
+Z15 8C:/MarianoF/vhdl_projects/four_bit_adder/stimulus/four_bit_adder_tb.vhd
+Z16 FC:/MarianoF/vhdl_projects/four_bit_adder/stimulus/four_bit_adder_tb.vhd
+l0
+L32
+VB0L7zfJPo<UafSLQl<jiU3
+!s100 13SKCEl_?ONICO[VgVa793
+R6
+33
+R7
+!i10b 1
+Z17 !s108 1691517460.000000
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/MarianoF/vhdl_projects/four_bit_adder/stimulus/four_bit_adder_tb.vhd|
+Z19 !s107 C:/MarianoF/vhdl_projects/four_bit_adder/stimulus/four_bit_adder_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R2
+R3
+DEx4 work 17 four_bit_adder_tb 0 22 B0L7zfJPo<UafSLQl<jiU3
+l57
+L35
+V2MR2kUgn:E<_^2NV93eDF2
+!s100 9Q_O=TCCnh`i0QG[RVeo[1
+R6
+33
+R7
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

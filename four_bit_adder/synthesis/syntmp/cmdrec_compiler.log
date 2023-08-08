@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\MarianoF\vhdl_projects\four_bit_adder\synthesis\synwork\four_bit_adder_comp.srs  -top  work.four_bit_adder  -hdllog  C:\MarianoF\vhdl_projects\four_bit_adder\synthesis\synlog\four_bit_adder_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  C:\MarianoF\vhdl_projects\four_bit_adder\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\MarianoF\vhdl_projects\four_bit_adder\hdl\four_bit_adder.vhd 
+relcom:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\four_bit_adder_comp.srs -top work.four_bit_adder -hdllog ..\synlog\four_bit_adder_compiler.srr -encrypt -mp 1 -verification_mode 0 -vhdl -prodtype synplify_pro -nram -fixsmult -divnmod -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -vhdl2008 -ignore_undefined_lib -lib work ..\..\hdl\four_bit_adder.vhd
+rc:2 success:0 runtime:1
+file:..\synwork\four_bit_adder_comp.srs|io:o|time:1691520838|size:1806|exec:0|csum:
+file:..\synlog\four_bit_adder_compiler.srr|io:o|time:1691521639|size:2229|exec:0|csum:
+file:..\..\hdl\four_bit_adder.vhd|io:i|time:1691521633|size:1353|exec:0|csum:C8B24B118A2AF0C4B36A7252649863BC
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1509026116|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1509026324|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

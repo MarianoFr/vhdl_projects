@@ -1,0 +1,2 @@
+@E: CD297 :"C:\MarianoF\vhdl_projects\four_bit_adder\hdl\four_bit_adder.vhd":37:10:37:11|Width mismatch, location has width 2, value 1
+
