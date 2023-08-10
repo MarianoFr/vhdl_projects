@@ -1,0 +1,22 @@
+--------------------------- Sequential Code ---------------------------
+-- PROCESSES, FUNCTIONS, and PROCEDURES are the only sections of code that are executed
+-- sequentially. However, as a whole, any of these blocks is still concurrent with any
+-- other statements placed outside it.
+-- Sequential statements are only allowed inside PROCESSES, FUNCTIONS, and PROCEDURES,
+-- they are: IF, WAIT,CASE, and LOOP. VARIABLES are also only allowed in sequential code
+-- FUNCTIONS and PROCEDURES are very similar to PROCESSES, but are intended for 
+-- system-level design, here will only address PROCESSES.
+--    PROCESS
+-- A PROCESS is a sequential section of VHDL code. It is characterized by the presence 
+-- of IF, WAIT, CASE, or LOOP, and by a sensitivity list (except when WAIT is
+-- used). A PROCESS must be installed in the main code, and is executed every time a
+-- signal in the sensitivity list changes (or the condition related to WAIT is fulfilled). Its
+-- syntax is shown below. VARIABLES are optional.
+-- [label:] PROCESS (sensitivity list)
+--    [VARIABLE name type [range] [:= initial_value;]] -- initial value not synthesizable, only taken into consideration in simulations.
+-- BEGIN
+--    (sequential code)
+-- END PROCESS [label];
+-- The use of a label is also optional. Its purpose is to improve code readability.
+-- To construct a synchronous circuit, monitoring a signal (clock, for example) is
+-- necessary.

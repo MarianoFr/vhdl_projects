@@ -1,8 +1,0 @@
-KEY IDE_DES_TOOL "Ide"
-KEY IDE_DES_ADB_PATH "C:\MarianoF\vhdl_projects\four_bit_adder\designer\impl1\four_bit_adder.adb"
-LIST SOURCE_FILES
-ENDLIST
-LIST OPTIONAL_FILES
-ENDLIST
-LIST VCD_FILES
-ENDLIST

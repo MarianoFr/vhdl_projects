@@ -106,3 +106,5 @@ w <= (0 =>'1', OTHERS =>'0'); -- LSB is '1', the others are '0'
 -- -- attribute call, returns 3
 
 --------- Operator Overloading
+-- Define functions for overloading pre-defined operators. For example:
+

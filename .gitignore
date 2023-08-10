@@ -1,0 +1,14 @@
+#When cloning rep, create a new project and une only hdl files
+
+*.ide_des
+*.log
+*.tcl
+component/
+constrain/
+coreconsole/
+designer/
+simulation/
+smartgen/
+synthesis/
+tooldata/
+viewgraw/

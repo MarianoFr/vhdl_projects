@@ -1,3 +1,0 @@
-@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"C:\MarianoF\vhdl_projects\four_bit_adder\hdl\four_bit_adder.vhd":22:7:22:20|Synthesizing work.four_bit_adder.behavioral.
-@E: CD297 :"C:\MarianoF\vhdl_projects\four_bit_adder\hdl\four_bit_adder.vhd":37:10:37:11|Width mismatch, location has width 2, value 1

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<SynplifyOutput>
-	<result>Success</result>
-	<design>four_bit_adder</design>
-	<target_edif>C:\MarianoF\vhdl_projects\four_bit_adder\synthesis\four_bit_adder.edn</target_edif>
-</SynplifyOutput>
