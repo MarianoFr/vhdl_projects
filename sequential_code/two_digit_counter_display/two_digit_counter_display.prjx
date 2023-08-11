@@ -13,15 +13,10 @@ KEY VendorTechnology_Package "pq208"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "IND"
-KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
-KEY VendorTechnology_OPCONR ""
-KEY VendorTechnology_PLL_SUPPLY ""
-KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
-KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
 KEY VendorTechnology_TEMPR "IND"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -30,81 +25,22 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "C:\MarianoF\vhdl_projects\concurrent_code\alu"
-KEY ProjectDescription "ALU from Volnei example 5.5"
+KEY ProjectLocation "C:\MarianoF\vhdl_projects\sequential_code\two_digit_counter_display"
+KEY ProjectDescription "Example 6.7"
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
-KEY ActiveRoot "alu::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
-VALUE "<project>\designer\impl1\alu.ide_des,ide_des"
-STATE="utd"
-TIME="1691685920"
-SIZE="200"
-ENDFILE
-VALUE "<project>\hdl\alu.vhd,hdl"
-STATE="utd"
-TIME="1691689311"
-SIZE="2799"
-ENDFILE
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
-STATE="utd"
-TIME="1691760698"
-SIZE="2431"
-ENDFILE
-VALUE "<project>\synthesis\alu.edn,syn_edn"
-STATE="utd"
-TIME="1691689375"
-SIZE="83499"
-ENDFILE
-VALUE "<project>\synthesis\alu.so,so"
-STATE="utd"
-TIME="1691689375"
-SIZE="221"
-ENDFILE
-VALUE "<project>\synthesis\alu_sdc.sdc,syn_sdc"
-STATE="utd"
-TIME="1691689375"
-SIZE="310"
-ENDFILE
-VALUE "<project>\synthesis\alu_syn.prj,prj"
-STATE="utd"
-TIME="1691689381"
-SIZE="1405"
-ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
-LIST "alu::work"
-FILE "<project>\hdl\alu.vhd,hdl"
-LIST AssociatedStimulus
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\alu.edn,syn_edn)=StateSuccess
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-ENDLIST
 ENDLIST
 LIST AssociatedStimulus
-LIST alu
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
-ENDLIST
 ENDLIST
 LIST Other_Association
 ENDLIST
@@ -115,7 +51,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=alu_tb
+EntityName=testbench
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -183,7 +119,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l simple_counter_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -208,20 +144,6 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "alu::work"
-LIST Impl1
-LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\alu.edn,syn_edn)=StateSuccess
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -235,22 +157,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
-LIST "alu::work","hdl\alu.vhd","FALSE","FALSE"
-ENDLIST
-LIST "alu_tb::work","stimulus\alu_tb.vhd","FALSE","TRUE"
-SUBBLOCK "alu::work","hdl\alu.vhd","FALSE","FALSE"
-ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
-LIST "alu::work"
-ACTIVETESTBENCH "alu_tb::work","stimulus\alu_tb.vhd","FALSE"
-ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

@@ -13,15 +13,10 @@ KEY VendorTechnology_Package "pq208"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "IND"
-KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVTTL"
-KEY VendorTechnology_OPCONR ""
-KEY VendorTechnology_PLL_SUPPLY ""
-KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
-KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS8X8M2"
 KEY VendorTechnology_TEMPR "IND"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -30,66 +25,76 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "C:\MarianoF\vhdl_projects\concurrent_code\alu"
-KEY ProjectDescription "ALU from Volnei example 5.5"
+KEY ProjectLocation "C:\MarianoF\vhdl_projects\concurrent_code\simple_counter"
+KEY ProjectDescription "Example 6.2 from Volnei. 1 digit counter from 0 to 9."
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
-KEY ActiveRoot "alu::work"
+KEY ActiveRoot "simple_counter::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
-VALUE "<project>\designer\impl1\alu.ide_des,ide_des"
+VALUE "<project>\designer\impl1\simple_counter.ide_des,ide_des"
 STATE="utd"
-TIME="1691685920"
-SIZE="200"
+TIME="1691763521"
+SIZE="222"
 ENDFILE
-VALUE "<project>\hdl\alu.vhd,hdl"
+VALUE "<project>\hdl\simple_counter.vhd,hdl"
 STATE="utd"
-TIME="1691689311"
-SIZE="2799"
+TIME="1691765214"
+SIZE="1533"
 ENDFILE
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
+VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1691760698"
-SIZE="2431"
+TIME="1691765752"
+SIZE="751"
 ENDFILE
-VALUE "<project>\synthesis\alu.edn,syn_edn"
+VALUE "<project>\simulation\simple_counter_tb_presynth_simulation.log,log"
 STATE="utd"
-TIME="1691689375"
-SIZE="83499"
+TIME="1691765755"
+SIZE="2425"
 ENDFILE
-VALUE "<project>\synthesis\alu.so,so"
+VALUE "<project>\stimulus\simple_counter_tb.vhd,tb_hdl"
 STATE="utd"
-TIME="1691689375"
-SIZE="221"
+TIME="1691766531"
+SIZE="1781"
 ENDFILE
-VALUE "<project>\synthesis\alu_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\simple_counter.edn,syn_edn"
 STATE="utd"
-TIME="1691689375"
-SIZE="310"
+TIME="1691764294"
+SIZE="11826"
 ENDFILE
-VALUE "<project>\synthesis\alu_syn.prj,prj"
+VALUE "<project>\synthesis\simple_counter.so,so"
 STATE="utd"
-TIME="1691689381"
-SIZE="1405"
+TIME="1691764294"
+SIZE="254"
+ENDFILE
+VALUE "<project>\synthesis\simple_counter_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1691764294"
+SIZE="403"
+ENDFILE
+VALUE "<project>\synthesis\simple_counter_syn.prj,prj"
+STATE="utd"
+TIME="1691764282"
+SIZE="639"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
-LIST "alu::work"
-FILE "<project>\hdl\alu.vhd,hdl"
+LIST "simple_counter::work"
+FILE "<project>\hdl\simple_counter.vhd,hdl"
 LIST AssociatedStimulus
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
+VALUE "<project>\stimulus\simple_counter_tb.vhd,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\alu.edn,syn_edn)=StateSuccess
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\simple_counter.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -102,8 +107,8 @@ ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
-LIST alu
-VALUE "<project>\stimulus\alu_tb.vhd,tb_hdl"
+LIST simple_counter
+VALUE "<project>\stimulus\simple_counter_tb.vhd,tb_hdl"
 ENDLIST
 ENDLIST
 LIST Other_Association
@@ -115,7 +120,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=alu_tb
+EntityName=simple_counter_tb
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -183,7 +188,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l simple_counter_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -208,11 +213,11 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "alu::work"
+LIST "simple_counter::work"
 LIST Impl1
 LiberoState=Post_Synthesis
-ideSYNTHESIS(<project>\synthesis\alu.edn,syn_edn)=StateSuccess
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\simple_counter.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -236,20 +241,20 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
+ReportsCurrentItem;Pre-Synthesis Simulate:simple_counter_tb_presynth_simulation.log
 StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
-LIST "alu::work","hdl\alu.vhd","FALSE","FALSE"
+LIST "simple_counter::work","hdl\simple_counter.vhd","FALSE","FALSE"
 ENDLIST
-LIST "alu_tb::work","stimulus\alu_tb.vhd","FALSE","TRUE"
-SUBBLOCK "alu::work","hdl\alu.vhd","FALSE","FALSE"
+LIST "simple_counter_tb::work","stimulus\simple_counter_tb.vhd","FALSE","TRUE"
+SUBBLOCK "simple_counter::work","hdl\simple_counter.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
-LIST "alu::work"
-ACTIVETESTBENCH "alu_tb::work","stimulus\alu_tb.vhd","FALSE"
+LIST "simple_counter::work"
+ACTIVETESTBENCH "simple_counter_tb::work","stimulus\simple_counter_tb.vhd","FALSE"
 ENDLIST
 ENDLIST
 LIST IOTabList

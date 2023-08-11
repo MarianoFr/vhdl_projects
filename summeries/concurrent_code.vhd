@@ -9,7 +9,7 @@
 
 --   Combinational Logic is that in which the outputs depend solely on the current inputs, and
 -- in principle the system requires no memory.
---   Sequential Logic is that in which the outputs depend on the histpry of the inputs and
+--   Sequential Logic is that in which the outputs depend on the history of the inputs and
 -- requires storage elements, connected to the logic via feedback loops. But not every logic
 -- containing storage elements is sequential.
 

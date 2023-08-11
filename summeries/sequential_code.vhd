@@ -20,3 +20,93 @@
 -- The use of a label is also optional. Its purpose is to improve code readability.
 -- To construct a synchronous circuit, monitoring a signal (clock, for example) is
 -- necessary.
+-- A D-type flip-flop is the most basic building block in sequential logic circuits
+-- -------------------------------------------------
+-- LIBRARY ieee;
+-- USE ieee.std_logic_1164.all;
+-- ENTITY dff IS
+--    PORT (d, clk, rst: IN STD_LOGIC;
+--       q: OUT STD_LOGIC);
+-- END dff;
+-- ARCHITECTURE behavior OF dff IS
+-- BEGIN
+--    PROCESS (clk, rst)
+--    BEGIN
+--       IF (rst='1') THEN
+--          q <= '0';
+--       ELSIF (clk'EVENT AND clk='1') THEN -- could be achieved with rising-edge
+--          q <= d;
+--       END IF;
+--    END PROCESS;
+-- END behavior;
+-- -------------------------------------------------
+--   Signals and Variables
+-- VHDL has two ways of passing non-static values around: by means of a SIGNAL
+-- or by means of a VARIABLE. A SIGNAL can be declared in a PACKAGE,
+-- ENTITY or ARCHITECTURE (in its declarative part), while a VARIABLE can
+-- only be declared inside a piece of sequential code (in a PROCESS, for example).
+--
+-- The value of a VARIABLE can never be passed out of the PROCESS directly; if
+-- necessary, then it must be assigned to a SIGNAL. On the other hand, the update of a
+-- VARIABLE is immediate, that is, we can promptly count on its new value in the
+-- next line of code. That is not the case with a SIGNAL (when used in a PROCESS),
+-- for its new value is generally only guaranteed to be available after the conclusion of
+-- the present run of the PROCESS.
+-- Finally, recall from section 4.1 that the assignment operator for a SIGNAL is
+--‘‘<=’’ (ex.: sig <¼ 5), while for a VARIABLE it is ‘‘:=’’ (ex.: var :¼ 5).
+-- ----IF statement
+-- IF conditions THEN assignments;
+-- ELSIF conditions THEN assignments;
+-- ...
+-- ELSE assignments;
+-- END IF;
+-- ----WAIT statement
+-- The WAIT statement is similar to the IF, but it can be used in more than one way.
+-- When using the WAIT statement the PROCESS cannot have a sensitivity list.
+-- There are 3 syntaxes for the WAIT statement.
+-- WAIT UNTIL signal_condition;
+-- WAIT ON signal1 [, signal2, ... ];
+-- WAIT FOR time;
+-- WAIT UNTIL works with a single signal, thus it's more appropiate for writing synchronous 
+-- code rather than asynchronous. Because there is no sensitivity list, WAIT UNTIL must 
+-- be the first statement in the PROCESS block. This block will execute every time the wait 
+-- condition is met.
+-------------------------------------------
+-- PROCESS -- no sensitivity list
+-- BEGIN
+--    WAIT UNTIL (clk'EVENT AND clk='1');
+--    IF (rst='1') THEN
+--       output <= "00000000";
+--    ELSIF (clk'EVENT AND clk='1') THEN
+--       output <= input;
+--    END IF;
+-- END PROCESS;
+-------------------------------------------
+-- WAIT ON accepts multiple signals. In the example below, the PROCESS will
+-- continue execution whenever a change in rst or clk occurs.
+-------------------------------------------
+-- PROCESS
+-- BEGIN
+--    WAIT ON clk, rst;
+--    IF (rst = '1') THEN-- activo en alto
+--       output <= "00000000";
+--    ELSIF (clk'EVENT AND clk='1') THEN
+--       output <= input;
+--    END IF;
+-- END PROCESS;
+-------------------------------------------
+-- Finally, WAIT FOR is intended for simulation only (waveform generation for
+-- testbenches). Example: WAIT FOR 5ns;
+-- CASE
+-- This is another statement for sequential code. The syntax is below.
+-- CASE identifier IS
+--    WHEN value => assignments;
+--    WHEN value => assignments;
+--    ...
+-- END CASE;
+-- Example:
+--    CASE control IS
+--       WHEN "00" => x<=a; y<=b;
+--       WHEN "01" => x<=b; y<=c;
+--       WHEN OTHERS => x<="0000"; y<="ZZZZ";
+--    END CASE;
