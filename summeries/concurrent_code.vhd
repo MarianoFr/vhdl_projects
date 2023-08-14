@@ -78,7 +78,7 @@
 --
 -- Block statement
 -- Simple and guarded blocks exist. In its simplest form, it allows to put together pieces 
--- of code, to meke the over all more readable. The syntax is:
+-- of code, to make the over all more readable. The syntax is:
 -- label: BLOCK
 --    [declarative part]
 -- BEGIN

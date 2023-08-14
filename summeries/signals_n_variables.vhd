@@ -1,0 +1,43 @@
+------------------------------- Signals andn Variables -------------------------------
+-- We have SIGNALS and VARIABLES to work with non-static values, and GENERICS and CONSTANTS
+-- to work with static values.
+-- CONSTANTS and SIGNALS can be global. VARIABLES are local to sequential pieces of code.
+-- It's not easy to say when a signal is necessary and when a variable is.
+--
+--  CONSTANTS.
+-- CONSTANT serves to establish default values. Its syntax is shown below.
+-- CONSTANT name : type := value;
+-- A CONSTANT can be declared in a PACKAGE, ENTITY, or ARCHITECTURE.
+--  SIGNALS.
+-- SIGNAL serves to pass values in and out the circuit, as well as between its internal units.
+-- A very important aspect of a SIGNAL, when used inside a section of sequential
+-- code (PROCESS, for example), is that its update is not immediate. In other words, its
+-- new value should not be expected to be ready before the conclusion of the corresponding
+-- PROCESS, FUNCTION or PROCEDURE.
+-- SIGNAL's values are not updated instantly within a sequential block, thus its use is
+-- not recommended in said blocks.
+--  VARIABLES
+-- Represent only local information and can only be used within sequential code blocks.
+-- And its value cannot be directly passed out. But its value is immediatly updated.
+---------------------------------------------------------------------------------------
+--           |               SIGNAL                  |            VARIABLE            |
+-------------|---------------------------------------|--------------------------------|
+-- Assignment|                <=                     |              :=                |
+-------------|---------------------------------------|--------------------------------|
+-- Utility   |Represents circuit interconnects(wires)|Represents local information    |
+-------------|---------------------------------------|--------------------------------|
+--           |Can be global (seen by entire code)    |Local (visible only inside the  |
+--  Scope    |                                       |corresponding PROCESS, FUNCTION,|
+--           |                                       |or PROCEDURE).                  |
+-------------|---------------------------------------|--------------------------------|
+--           | Update is not immediate in sequential | Updated immediately (new value |
+--           |                                       | can be used in the next line   |
+-- Behavior  | code (new value generally only availa-| of code)                       |
+--           | ble at the conclusion of the PROCESS, |                                |
+--           | FUNCTION, or PROCEDURE)               |                                |
+-------------|---------------------------------------|--------------------------------|
+--           | In a PACKAGE, ENTITY, or ARCHITECTURE.| Only in sequential code, that  |
+--   Usage   | In an ENTITY, all PORTS are SIGNALS   | is, in a PROCESS, FUNCTION, or |
+--           | by default                            | PROCEDURE.                     |
+-------------|---------------------------------------|--------------------------------| 
+

@@ -54,13 +54,14 @@
 -- the present run of the PROCESS.
 -- Finally, recall from section 4.1 that the assignment operator for a SIGNAL is
 --‘‘<=’’ (ex.: sig <¼ 5), while for a VARIABLE it is ‘‘:=’’ (ex.: var :¼ 5).
--- ----IF statement
+--
+-- *************** IF ***************
 -- IF conditions THEN assignments;
 -- ELSIF conditions THEN assignments;
 -- ...
 -- ELSE assignments;
 -- END IF;
--- ----WAIT statement
+-- *************** WAIT ****************
 -- The WAIT statement is similar to the IF, but it can be used in more than one way.
 -- When using the WAIT statement the PROCESS cannot have a sensitivity list.
 -- There are 3 syntaxes for the WAIT statement.
@@ -97,7 +98,8 @@
 -------------------------------------------
 -- Finally, WAIT FOR is intended for simulation only (waveform generation for
 -- testbenches). Example: WAIT FOR 5ns;
--- CASE
+--
+-- *************** CASE ****************
 -- This is another statement for sequential code. The syntax is below.
 -- CASE identifier IS
 --    WHEN value => assignments;
@@ -110,3 +112,38 @@
 --       WHEN "01" => x<=b; y<=c;
 --       WHEN OTHERS => x<="0000"; y<="ZZZZ";
 --    END CASE;
+--
+-- *************** LOOP ****************
+-- Because it's a sequential statement, it can only be used within a PROCESS.
+-- FOR/LOOP
+-- [label:] FOR identifier IN range LOOP
+--    (sequential statements)
+-- END LOOP [label];
+-- WHILE/LOOP
+-- [label:] WHILE condition LOOP
+--    (sequential statements)
+-- END LOOP [label];
+-- 
+-- Just like with the GENERATE command, limits must be static.
+-- WHILE/LOOP
+-- WHILE (i < 10) LOOP
+--    WAIT UNTIL clk'EVENT AND clk='1';
+--    (other statements)
+-- END LOOP;
+--
+-- We can also use an exit clause, similar to a break in c
+-- FOR i IN data'RANGE LOOP
+--    CASE data(i) IS
+--       WHEN '0' => count:=count+1;
+--       WHEN OTHERS => EXIT;
+--    END CASE;
+-- END LOOP;
+--
+-- A NEXT satemtent also exists to skip one iteration, similar to continue in c.
+--
+-- FOR i IN 0 TO 15 LOOP
+--    NEXT WHEN i=skip; -- jumps to next iteration
+--      (...)
+-- END LOOP;
+--
+-- 
