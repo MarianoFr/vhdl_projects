@@ -2,35 +2,37 @@
 --                                 CNEA - CAE - IYC
 --------------------------------------------------------------------------------
 --
--- Proyecto:    Vector Shifter
+-- Proyecto:    Sgined Comparator
 -- Autor:       Mariano M. Franceschetti (marianofranceschetti@cae.cnea.gov.ar).
 -- Código:      V0.0.0-A0
--- Descripción: Ejemplo 5.6 del Volnei
+-- Descripción: Ejemplo 9.2 del Volnei
 --                  
 --
 --------------------------------------------------------------------------------
 -- Evolución   Fecha        Revisor    Comentarios
--- 0           15/08/2023   JEA        Original.
+-- 0           17/08/2023   JEA        Original.
 --------------------------------------------------------------------------------
 
 
 library ieee;
 use ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all; -- necessary!
 
 entity signed_comparator is
-port (
-    --<port_name> : <direction> <type>;
-   port_name1 : IN  std_logic; -- example
-   port_name2 : OUT std_logic_vector(1 downto 0)  -- example
-    --<other_ports>;
-);
+   generic (G_N: integer := 7);
+   port (
+      i_a: in signed (G_N downto 0);
+      i_b: in signed (G_N downto 0);
+      o_x1: out std_logic;
+      o_x2: out std_logic;
+      o_x3: out std_logic
+   );
 end signed_comparator;
+
 architecture behavioral of signed_comparator is
-   -- signal, component etc. declarations
-	signal signal_name1 : std_logic; -- example
-	signal signal_name2 : std_logic_vector(1 downto 0) ; -- example
 
 begin
-
-   -- architecture body
+   o_x1 <= '1' WHEN i_a > i_b ELSE '0';
+   o_x2 <= '1' WHEN i_a = i_b ELSE '0';
+   o_x3 <= '1' WHEN i_a < i_b ELSE '0';
 end behavioral;

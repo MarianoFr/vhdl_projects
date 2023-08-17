@@ -24,33 +24,91 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "C:\MarianoF\vhdl_projects\volnei_ch_9\signed_comparator"
-KEY ProjectDescription ""
+KEY ProjectLocation "C:\MarianoF\vhdl_projects\volnei_ch_9\vendin_machine_controller"
+KEY ProjectDescription "Vending-machine controller from ch 9, 9.5 Volnei"
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
-KEY ActiveRoot "signed_comparator::work"
+KEY ActiveRoot "vending_machine_controller::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
-VALUE "<project>\designer\impl1\signed_comparator.ide_des,ide_des"
+VALUE "<project>\designer\impl1\vending_machine_controller.ide_des,ide_des"
 STATE="utd"
-TIME="1692128215"
-SIZE="224"
+TIME="1692291276"
+SIZE="241"
 ENDFILE
-VALUE "<project>\hdl\signed_comparator.vhd,hdl"
+VALUE "<project>\hdl\vending_machine_controller.vhd,hdl"
 STATE="utd"
-TIME="1692128246"
-SIZE="1236"
+TIME="1692294395"
+SIZE="5224"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1692296179"
+SIZE="732"
+ENDFILE
+VALUE "<project>\simulation\vending_machine_controller_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1692296183"
+SIZE="68"
+ENDFILE
+VALUE "<project>\stimulus\vending_machine_controller_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1692299132"
+SIZE="2590"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_controller.edn,syn_edn"
+STATE="utd"
+TIME="1692294421"
+SIZE="36014"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_controller.so,so"
+STATE="utd"
+TIME="1692294421"
+SIZE="285"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_controller_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1692294421"
+SIZE="415"
+ENDFILE
+VALUE "<project>\synthesis\vending_machine_controller_syn.prj,prj"
+STATE="utd"
+TIME="1692294407"
+SIZE="689"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "vending_machine_controller::work"
+FILE "<project>\hdl\vending_machine_controller.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\vending_machine_controller_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\vending_machine_controller.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST vending_machine_controller
+VALUE "<project>\stimulus\vending_machine_controller_tb.vhd,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
 ENDLIST
@@ -61,7 +119,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=testbench
+EntityName=vending_machine_controller_tb
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -129,7 +187,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=" -l traffic_light_controller_tb_presynth_simulation.log "
+PARAM=" -l vending_machine_controller_tb_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -154,6 +212,20 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "vending_machine_controller::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\vending_machine_controller.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -168,15 +240,20 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:signed_comparator.log
-StartPage;StartPage;0
+ReportsCurrentItem;Project Summary:vendin_machine_controller.log
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
-LIST "signed_comparator::work","hdl\signed_comparator.vhd","FALSE","FALSE"
+LIST "vending_machine_controller::work","hdl\vending_machine_controller.vhd","FALSE","FALSE"
+ENDLIST
+LIST "vending_machine_controller_tb::work","stimulus\vending_machine_controller_tb.vhd","FALSE","TRUE"
+SUBBLOCK "vending_machine_controller::work","hdl\vending_machine_controller.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
+LIST "vending_machine_controller::work"
+ACTIVETESTBENCH "vending_machine_controller_tb::work","stimulus\vending_machine_controller_tb.vhd","FALSE"
+ENDLIST
 ENDLIST
 LIST IOTabList
 ENDLIST

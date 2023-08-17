@@ -24,26 +24,26 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "IND"
-KEY ProjectLocation "C:\MarianoF\vhdl_projects\volnei_ch_9\signed_comparator"
-KEY ProjectDescription ""
+KEY ProjectLocation "C:\MarianoF\vhdl_projects\volnei_ch_9\division_algorithm"
+KEY ProjectDescription "Chapter 9 Volnei Division algorithm 9.4 fixed point"
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
-KEY ActiveRoot "signed_comparator::work"
+KEY ActiveRoot "division_algorithm::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
-VALUE "<project>\designer\impl1\signed_comparator.ide_des,ide_des"
+VALUE "<project>\designer\impl1\division_algorithm.ide_des,ide_des"
 STATE="utd"
-TIME="1692128215"
-SIZE="224"
+TIME="1692288633"
+SIZE="226"
 ENDFILE
-VALUE "<project>\hdl\signed_comparator.vhd,hdl"
+VALUE "<project>\hdl\division_algorithm.vhd,hdl"
 STATE="utd"
-TIME="1692128246"
-SIZE="1236"
+TIME="1692291180"
+SIZE="2961"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -129,7 +129,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=" -l traffic_light_controller_tb_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -168,12 +168,12 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:signed_comparator.log
+ReportsCurrentItem;Project Summary:division_algorithm.log
 StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
-LIST "signed_comparator::work","hdl\signed_comparator.vhd","FALSE","FALSE"
+LIST "division_algorithm::work","hdl\division_algorithm.vhd","FALSE","FALSE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
