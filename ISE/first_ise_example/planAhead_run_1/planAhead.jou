@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Aug 18 16:24:50 2023
+# Process ID: 3056
+# Log file: C:/MarianoF/vhdl_projects/ISE/first_ise_example/planAhead_run_1/planAhead.log
+# Journal file: C:/MarianoF/vhdl_projects/ISE/first_ise_example/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/MarianoF/vhdl_projects/ISE/first_ise_example/pa.fromNetlist.tcl
+startgroup
+set_property package_pin F9 [get_ports {led_shift_register[7]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {led_shift_register[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {led_shift_register[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {led_shift_register[4]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {led_shift_register[3]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {led_shift_register[2]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {led_shift_register[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {led_shift_register[0]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {led_shift_register[1]}]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {led_shift_register[7]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports rst]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {led_shift_register[7]} {led_shift_register[6]} {led_shift_register[5]} {led_shift_register[4]} {led_shift_register[3]} {led_shift_register[2]} {led_shift_register[1]} {led_shift_register[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+save_constraints

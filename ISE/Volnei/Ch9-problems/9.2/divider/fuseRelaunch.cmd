@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider_tb_isim_beh.exe" -prj "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider_tb_beh.prj" "work.divider_tb" 

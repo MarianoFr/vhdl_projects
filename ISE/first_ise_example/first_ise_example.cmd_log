@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc first_ise_example.ucf -p xc3s500e-fg320-4 first_ise_example.ngc first_ise_example.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc first_ise_example.ucf -p xc3s500e-fg320-4 first_ise_example.ngc first_ise_example.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc first_ise_example.ucf -p xc3s500e-fg320-4 first_ise_example.ngc first_ise_example.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o first_ise_example_map.ncd first_ise_example.ngd first_ise_example.pcf 
+par -w -intstyle ise -ol high -t 1 first_ise_example_map.ncd first_ise_example.ncd first_ise_example.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml first_ise_example.twx first_ise_example.ncd -o first_ise_example.twr first_ise_example.pcf -ucf first_ise_example.ucf 
+bitgen -intstyle ise -f first_ise_example.ut first_ise_example.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc first_ise_example.ucf -p xc3s500e-fg320-4 first_ise_example.ngc first_ise_example.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o first_ise_example_map.ncd first_ise_example.ngd first_ise_example.pcf 
+par -w -intstyle ise -ol high -t 1 first_ise_example_map.ncd first_ise_example.ncd first_ise_example.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml first_ise_example.twx first_ise_example.ncd -o first_ise_example.twr first_ise_example.pcf -ucf first_ise_example.ucf 
+bitgen -intstyle ise -f first_ise_example.ut first_ise_example.ncd 

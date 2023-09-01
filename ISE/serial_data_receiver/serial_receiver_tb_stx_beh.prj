@@ -1,0 +1,2 @@
+vhdl isim_temp "serial_data_receiver.vhd"
+vhdl isim_temp "serial_receiver_tb.vhd"

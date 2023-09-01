@@ -1,0 +1,31 @@
+V3 12
+FL C:/MarianoF/vhdl_projects/ISE/vending_machine/debounce.vhd 2023/08/23.16:14:24 P.20131013
+EN work/debounce 1692818070 \
+      FL C:/MarianoF/vhdl_projects/ISE/vending_machine/debounce.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/pkg_util 1692818067
+AR work/debounce/behavioral 1692818071 \
+      FL C:/MarianoF/vhdl_projects/ISE/vending_machine/debounce.vhd \
+      EN work/debounce 1692818070 AR work/contadordes/behavioral 1692818069
+FL C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine.vhd 2023/08/23.16:11:50 P.20131013
+EN work/vending_machine_controller 1692818072 \
+      FL C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/vending_machine_controller/behavioral 1692818073 \
+      FL C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine.vhd \
+      EN work/vending_machine_controller 1692818072 \
+      AR work/contadordes/behavioral 1692818069 AR work/debounce/behavioral 1692818071
+FL C:/MarianoF/vhdl_projects/useful_snipets/ContadorDes.vhd 2023/08/22.10:50:10 P.20131013
+EN work/contadordes 1692818068 \
+      FL C:/MarianoF/vhdl_projects/useful_snipets/ContadorDes.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/pkg_util 1692818067
+AR work/contadordes/behavioral 1692818069 \
+      FL C:/MarianoF/vhdl_projects/useful_snipets/ContadorDes.vhd \
+      EN work/contadordes 1692818068
+FL C:/MarianoF/vhdl_projects/useful_snipets/Pkg_Util.vhd 2023/08/08.11:14:03 P.20131013
+PH work/pkg_util 1692818066 \
+      FL C:/MarianoF/vhdl_projects/useful_snipets/Pkg_Util.vhd \
+      PB ieee/std_logic_1164 1381692176
+PB work/pkg_util 1692818067 \
+      FL C:/MarianoF/vhdl_projects/useful_snipets/Pkg_Util.vhd PH work/pkg_util 1692818066

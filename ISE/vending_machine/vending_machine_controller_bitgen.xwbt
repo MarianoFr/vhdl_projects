@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\MarianoF\vhdl_projects\ISE\vending_machine\vending_machine_controller.ncd
+OUTFILE=C:\MarianoF\vhdl_projects\ISE\vending_machine\vending_machine_controller.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\MarianoF\vhdl_projects\ISE\vending_machine
+LICENSE=ISE
+USER_INFO=212805670_0_0_028

@@ -1,0 +1,5 @@
+vhdl work "../../useful_snipets/Pkg_Util.vhd"
+vhdl work "../../useful_snipets/ContadorDes.vhd"
+vhdl work "debounce.vhd"
+vhdl work "vending_machine.vhd"
+vhdl work "vending_machine_tb.vhd"

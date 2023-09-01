@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 23 14:48:39 2023
+# Process ID: 1180
+# Log file: C:/MarianoF/vhdl_projects/ISE/vending_machine/planAhead_run_3/planAhead.log
+# Journal file: C:/MarianoF/vhdl_projects/ISE/vending_machine/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/MarianoF/vhdl_projects/ISE/vending_machine/pa.fromNetlist.tcl
+startgroup
+set_property package_pin G9 [get_ports o_di_stale]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports o_ni_stale]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports o_qi_stale]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list o_ni_stale]]
+set_property iostandard LVCMOS33 [get_ports [list o_qi_stale]]
+set_property iostandard LVCMOS33 [get_ports [list o_di_stale]]
+save_constraints -force
+startgroup
+set_property package_pin A8 [get_ports o_ni_stale]
+endgroup
+set_property package_pin "" [get_ports [list  i_di]]
+startgroup
+set_property package_pin D18 [get_ports i_ni]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports i_di]
+endgroup
+save_constraints -force
+undo
+undo
+undo
+save_constraints -force
+set_property iostandard LVTTL [get_ports [list i_di]]
+set_property iostandard LVTTL [get_ports [list i_ni]]
+undo
+undo
+undo

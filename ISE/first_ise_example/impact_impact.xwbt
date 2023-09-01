@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\MarianoF\vhdl_projects\ISE\first_ise_example\impact.xsl
+OUTFILE=C:\MarianoF\vhdl_projects\ISE\first_ise_example\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\MarianoF\vhdl_projects\ISE\first_ise_example
+LICENSE=iMPACT
+USER_INFO=iMPACT

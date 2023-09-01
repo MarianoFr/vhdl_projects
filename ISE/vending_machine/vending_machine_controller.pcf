@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Aug 23 16:36:18 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "rst" LOCATE = SITE "V4" LEVEL 1;
+COMP "o_qi_stale" LOCATE = SITE "C14" LEVEL 1;
+COMP "i_di" LOCATE = SITE "K17" LEVEL 1;
+COMP "i_ni" LOCATE = SITE "D18" LEVEL 1;
+COMP "i_qi" LOCATE = SITE "H13" LEVEL 1;
+COMP "o_di_stale" LOCATE = SITE "G9" LEVEL 1;
+COMP "o_ni_stale" LOCATE = SITE "A8" LEVEL 1;
+COMP "o_co" LOCATE = SITE "F12" LEVEL 1;
+COMP "o_do" LOCATE = SITE "E9" LEVEL 1;
+COMP "o_no" LOCATE = SITE "F9" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

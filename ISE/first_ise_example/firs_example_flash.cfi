@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            08/18/2023 - 14:24
+SOURCE          C:\MarianoF\vhdl_projects\ISE\first_ise_example\firs_example_flash.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x03A7FD20
+START_ADDRESS   0x00000000 END_ADDRESS 0x0004547F DIRECTION_UP   "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.bit" 3s500efg320

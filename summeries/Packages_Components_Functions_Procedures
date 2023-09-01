@@ -1,0 +1,99 @@
+        Packages Components Functions and Procedures
+They are the means of code partitioning, allow reuse of pieces of code and the sharing of them.
+Components, funcitons and procedures are stored within packages which are then compiled into 
+a library. Packages can also contain type declarations and constants.
+
+ ------------------------------------------
+| PACKAGE package_name IS                  |
+|    (declarations)                        |
+| END package_name;                        |
+| [PACKAGE BODY package_name IS            |
+|    (FUNCTION and PROCEDURE descriptions) |
+| END package_name;]                       |
+ ------------------------------------------
+
+Packages are described by the package's declarations and afterwards its body. Declarations
+contain type and constants definitions, but could also contain functions and procedures declarations, which must be then defined ins the package's body.
+
+Simple package example:
+
+------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+------------------------------------------------
+PACKAGE my_package IS
+   TYPE state IS (st1, st2, st3, st4);
+   TYPE color IS (red, green, blue);
+   CONSTANT vec: STD_LOGIC_VECTOR(7 DOWNTO 0) := "11111111";
+END my_package;
+------------------------------------------------
+
+Package with a function example:
+
+-------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+-------------------------------------------------
+PACKAGE my_package IS
+   TYPE state IS (st1, st2, st3, st4);
+   TYPE color IS (red, green, blue);
+   CONSTANT vec: STD_LOGIC_VECTOR(7 DOWNTO 0) := "11111111";
+   FUNCTION positive_edge(SIGNAL s: STD_LOGIC) RETURN BOOLEAN;
+END my_package;
+-------------------------------------------------
+PACKAGE BODY my_package IS
+   FUNCTION positive_edge(SIGNAL s: STD_LOGIC) RETURN BOOLEAN IS
+   BEGIN
+      RETURN (s'EVENT AND s='1');
+   END positive_edge;
+END my_package;
+-------------------------------------------------
+
+   COMPONENT
+Is a piece of conventional code, but when declaring it as a component, it can be used within another circuit (hierachical design).
+
+   FUNCTIONS AND PROCEDURES
+Collectively called subprograms. Similar to processes, because they are sequential, they can use IF, CASE and LOOP but WAIT is not allowed.
+
+   FUNCTIONS
+Sequential piece of code to deal with frequently encountered problems, like data conversion, logical operations, etc. Besides no able to use the WAIT clause, functions also prohibit signal declarations and components unstantioations.
+--------------------------------------------------------------
+FUNCTION function_name [<parameter list>] RETURN data_type IS
+   [declarations]
+BEGIN
+   (sequential statements)
+END function_name;
+--------------------------------------------------------------
+
+   PROCEDURE
+Very similar to a function, but procedures ca return more than one value.
+--------------------------------------------------------------
+PROCEDURE procedure_name [<parameter list>] IS
+   [declarations]
+BEGIN
+   (sequential statements)
+END procedure_name;
+--------------------------------------------------------------
+Edge detections are not allowed within procedures.
+
+FUNCTION versus PROCEDURE Summary
+� A FUNCTION has zero or more input parameters and a single return value. The
+input parameters can only be CONSTANTS (default) or SIGNALS (VARIABLES
+are not allowed).
+� A PROCEDURE can have any number of IN, OUT, and INOUT parameters,
+which can be SIGNALS, VARIABLES, or CONSTANTS. For input parameters
+(mode IN) the default is CONSTANT, whereas for output parameters (mode OUT
+or INOUT) the default is VARIABLE.
+� A FUNCTION is called as part of an expression, while a PROCEDURE is a
+statement on its own.
+� In both, WAIT and COMPONENTS are not synthesizable.
+� The possible locations of FUNCTIONS and PROCEDURES are the same (figure
+11.1). Though they are usually placed in PACKAGES (for code partitioning, code
+sharing, and code reuse purposes), they can also be located in the main code (either
+inside the ARCHITECTURE or inside the ENTITY). When placed in a PACK-
+AGE, then a PACKAGE BODY is necessary, which should contain the body of
+each FUNCTION and/or PROCEDURE declared in the PACKAGE.
+
+   ASSERT
+A statement for simulation which prints out messages.
+

@@ -1,0 +1,8 @@
+V3 3
+FL C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.vhd 2023/08/18.16:23:25 P.20131013
+EN work/first_ise_example 1692732314 \
+      FL C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/first_ise_example/Behavioral 1692732315 \
+      FL C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.vhd \
+      EN work/first_ise_example 1692732314

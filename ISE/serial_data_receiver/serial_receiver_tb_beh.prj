@@ -1,0 +1,2 @@
+vhdl work "serial_data_receiver.vhd"
+vhdl work "serial_receiver_tb.vhd"

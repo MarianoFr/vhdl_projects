@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/MarianoF/vhdl_projects/ISE/serial_data_receiver/serial_receiver_tb_isim_beh.exe" -prj "C:/MarianoF/vhdl_projects/ISE/serial_data_receiver/serial_receiver_tb_beh.prj" "work.serial_receiver_tb" 

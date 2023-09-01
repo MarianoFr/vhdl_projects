@@ -1,0 +1,45 @@
+
+
+NET "clk" LOC = C9;
+
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "i_di" LOC = "K17" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "i_ni" LOC = "D18" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "i_qi" LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "o_co" IOSTANDARD = LVCMOS33;
+NET "o_do" IOSTANDARD = LVCMOS33;
+NET "o_no" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+NET "i_di" DRIVE = 12;
+NET "i_ni" DRIVE = 12;
+NET "i_qi" DRIVE = 12;
+NET "o_co" DRIVE = 12;
+NET "o_do" DRIVE = 12;
+NET "o_no" DRIVE = 12;
+NET "rst" DRIVE = 12;
+NET "o_co" SLEW = SLOW;
+NET "o_do" SLEW = SLOW;
+NET "o_no" SLEW = SLOW;
+NET "rst" SLEW = SLOW;
+
+
+NET "o_co" LOC = F12;
+NET "o_no" LOC = F9;
+NET "o_do" LOC = E9;
+NET "rst" LOC = V4;
+
+# PlanAhead Generated physical constraints 
+
+NET "o_di_stale" LOC = G9;
+NET "o_qi_stale" LOC = C14;
+
+# PlanAhead Generated IO constraints 
+
+NET "o_ni_stale" IOSTANDARD = LVCMOS33;
+NET "o_qi_stale" IOSTANDARD = LVCMOS33;
+NET "o_di_stale" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "o_ni_stale" LOC = A8;

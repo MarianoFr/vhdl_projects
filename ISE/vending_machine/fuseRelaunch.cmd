@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_tb_isim_beh.exe" -prj "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_tb_beh.prj" "work.vending_machine_tb" 

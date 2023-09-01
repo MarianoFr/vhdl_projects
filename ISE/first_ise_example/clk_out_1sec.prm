@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\MarianoF\vhdl_projects\ISE\first_ise_example\//clk_out_1sec -x xcf04s -u 00000000 C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.bit 
+
+PROM C:\MarianoF\vhdl_projects\ISE\first_ise_example\clk_out_1sec.prm map: Fri Aug 18 15:39:51 2023
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03a89fa0
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Aug 18 15:12:24 2023 C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example.bit

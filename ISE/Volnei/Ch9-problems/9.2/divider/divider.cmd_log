@@ -1,0 +1,143 @@
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/Volnei/Ch9-problems/9.2/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 

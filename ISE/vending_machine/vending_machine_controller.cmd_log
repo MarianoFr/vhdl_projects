@@ -1,0 +1,232 @@
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+xst -intstyle ise -ifn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.xst" -ofn "C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vending_machine_controller.ucf -p xc3s500e-fg320-4 vending_machine_controller.ngc vending_machine_controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vending_machine_controller_map.ncd vending_machine_controller.ngd vending_machine_controller.pcf 
+par -w -intstyle ise -ol high -t 1 vending_machine_controller_map.ncd vending_machine_controller.ncd vending_machine_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vending_machine_controller.twx vending_machine_controller.ncd -o vending_machine_controller.twr vending_machine_controller.pcf -ucf vending_machine_controller.ucf 
+bitgen -intstyle ise -f vending_machine_controller.ut vending_machine_controller.ncd 

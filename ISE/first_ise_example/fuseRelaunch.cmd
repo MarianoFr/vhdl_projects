@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example_isim_beh.exe" -prj "C:/MarianoF/vhdl_projects/ISE/first_ise_example/first_ise_example_beh.prj" "work.first_ise_example" 

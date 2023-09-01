@@ -1,0 +1,8 @@
+AR vending_machine_controller behavioral C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine.vhd sub00/vhpl01 1692818073
+EN debounce NULL C:/MarianoF/vhdl_projects/ISE/vending_machine/debounce.vhd sub00/vhpl06 1692818070
+AR contadordes behavioral C:/MarianoF/vhdl_projects/useful_snipets/ContadorDes.vhd sub00/vhpl05 1692818069
+EN contadordes NULL C:/MarianoF/vhdl_projects/useful_snipets/ContadorDes.vhd sub00/vhpl04 1692818068
+AR debounce behavioral C:/MarianoF/vhdl_projects/ISE/vending_machine/debounce.vhd sub00/vhpl07 1692818071
+PB pkg_util pkg_util C:/MarianoF/vhdl_projects/useful_snipets/Pkg_Util.vhd sub00/vhpl03 1692818067
+PH pkg_util NULL C:/MarianoF/vhdl_projects/useful_snipets/Pkg_Util.vhd sub00/vhpl02 1692818066
+EN vending_machine_controller NULL C:/MarianoF/vhdl_projects/ISE/vending_machine/vending_machine.vhd sub00/vhpl00 1692818072
